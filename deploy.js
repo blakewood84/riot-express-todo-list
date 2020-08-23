@@ -3,7 +3,7 @@ var path, NodeSSH, ssh, fs
  
 fs = require('fs')
 path = require('path')
-NodeSSH = require('node-ssh').NodeSSH
+NodeSSH = require('node-ssh')
 ssh = new NodeSSH()
 
 // the method that starts the deployment process
